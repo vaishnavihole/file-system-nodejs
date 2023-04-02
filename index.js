@@ -1,3 +1,1 @@
-const name = "XYZ";
-
-console.log(name);
+const fs = require("fs");
