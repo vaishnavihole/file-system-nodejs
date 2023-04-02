@@ -15,8 +15,12 @@ const fs = require("fs");
 // Buffer is mainely used to store binary data,
 // while reading from file or receiving packets over the network.
 
-const buf_data = fs.readFileSync('read.txt');
-console.log(buf_data);
+// const buf_data = fs.readFileSync('read.txt');
+// console.log(buf_data);
 
-org_data = buf_data.toString();
-console.log(org_data);
+// org_data = buf_data.toString();
+// console.log(org_data);
+
+// to rename file
+
+fs.renameSync('read.txt', 'readwrite.txt')
